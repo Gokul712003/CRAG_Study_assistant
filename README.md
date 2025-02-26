@@ -22,30 +22,11 @@ This project implements a Contextual Retrieval Augmented Generation (RAG) system
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/vector_store_chroma.git
+git clone https://github.com/Gokul712003/CRAG_Study_assistant.git
 cd vector_store_chroma
 
 # Install dependencies
 pip install -r requirements.txt
-```
-
-## Usage
-
-```python
-from rag_system import ContextualRAG
-
-# Initialize the RAG system
-rag = ContextualRAG(
-    embedding_model="your_embedding_model",
-    llm="your_language_model"
-)
-
-# Add documents to the knowledge base
-rag.add_documents("path/to/your/documents")
-
-# Query the system
-response = rag.query("Your question here")
-print(response)
 ```
 
 ## Requirements
